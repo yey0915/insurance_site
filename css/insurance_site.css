@@ -6,33 +6,96 @@ ul li{list-style-type: none;}
 .clearfix{display: block; content: ""; clear: both;}
 
 /* 폰트
+    --나눔 바른고딕
     font-family: 'NanumBarunGothicExtraLight';
     font-family: 'NanumBarunGothicLight';
     font-family: 'NanumBarunGothic';
     font-family: 'NanumBarunGothicBold';
+    --나눔 스퀘어라운드
+    font-family: 'NanumSquareRoundLight';
+    font-family: 'NanumSquareRound';
+    font-family: 'NanumSquareRoundBold';
+    font-family: 'NanumSquareRoundExtraBold';
+
+    --나눔명조
+    font-family: 'NanumMyeongjo';
+    font-family: 'NanumMyeongjoBold';
+    font-family: 'NanumMyeongjoExtraBold';
+
+    --구글 폰트
+    font-family: 'Noto Sans KR', sans-serif;
 */
 
 
 /* section01 */
 #sect01_head{
-    width: 100%; height: 600px;
+    width: 100%; height: 750px;
     background-image: url(../images/main_01.jpg); background-repeat: no-repeat;
     background-position: center top;
+    background-color: #555;
 }
-#sect01_head > img{
+#sect01_head > .sect01_logo > img{
     width: 18%;
-    display: inline-block; float: left;
+    display:block; float: left;
 }
-#sect01_head > ul{
-    width: 82%; float: right; 
+#sect01_head > .sect01_logo > ul{
+    width: 82%; float: right;
 }
-#sect01_head > ul > li{
+#sect01_head > .sect01_logo > ul > li{
     float: right; padding: 20px;
     background-color: #333; color: #fff;
 }
-#sect01_head > ul:after{
+#sect01_head > .sect01_logo > ul:after{
     display: block; content: ""; clear: both;
 }
+#sect01_head > .sect01_logo:after{
+    display: block; content: ""; clear: both;
+}
+.sect01_subtitle{
+    text-align: center; font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5em; margin-top: 50px;
+}
+.sect01_subtitle > h1:first-of-type{
+    color: rgb(0, 81, 255); 
+}
+.sect01_subtitle > h1:last-of-type{
+    color: #fff; text-shadow: 1px 1px 2px black, 0 0 25px rgb(106, 106, 106), 0 0 5px rgb(41, 41, 41);
+    padding-bottom: 20px;
+}
+
+.sect01_content{
+    padding-left: 140px; 
+}
+.sect01_content > .left > h2{
+    color: #fff; font-family: 'NanumBarunGothicBold';
+    font-size: 2em; line-height: 40px;
+}
+.sect01_content > .left > h2:first-of-type{padding-top: 60px;}
+.sect01_content > .left > h2:last-of-type{
+    padding-top: 30px; color: #2fe000;
+}
+.sect01_content > .left > h2 > span{
+    color: #ffea00;
+}
+.sect01_content > .right > h2{
+    color: #fff; font-family: 'NanumBarunGothicBold';
+    font-size: 2em; line-height: 40px;
+}
+.sect01_content > .right > h2:first-of-type{padding-top: 65px;}
+.sect01_content > .right > h2:last-of-type{
+    padding-top: 30px; color: #2fe000;
+}
+.sect01_content > div{
+    width: 300px; height: 300px; border-radius: 150px; 
+    background-color: #C20020; text-align: center;
+    float: left; margin-left: 100px;
+    box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 #333;
+}
+.sect01_content:after{
+    display: block; content: ""; clear: both;
+}
+
+
 
 
 
@@ -42,6 +105,52 @@ ul li{list-style-type: none;}
     background-position: center top; 
     width: 100%; height: 737px;
 }
+.sect02_title > h3{
+    color: #fff; font-family: "NanumSquareRoundExtraBold"; font-size: 1.5em;
+    background-color: rgba(63, 72,78, 0.8); padding: 15px; 
+}
+
+.sect02_subtitle > h1{
+    color: #d50202; text-align: center; font-size: 2.6em; padding-top: 60px;
+    letter-spacing: -3px;
+    font-family: 'NanumSquareRoundExtraBold'; 
+}
+
+.sect02_content{
+    margin-top: 100px; margin-left: 70px;
+}
+.sect02_content > div{
+    width: 300px; height: 300px; border-radius: 150px; 
+    background-color: rgba(197, 139, 0, 0.8); text-align: center;
+    float: left; margin-right: 50px;
+    box-shadow: 0 4px 8px 0 #333, 0 6px 20px 0 #333;
+}
+.sect02_content > div > h2{
+    color: #fff; font-family: 'NanumBarunGothicBold'; font-size: 3em;
+    padding-top: 65px;    
+}
+.sect02_content > div > p{
+    color: #00f1ff; font-family: "NanumMyeongjoExtraBold";
+    font-size: 1.5em; letter-spacing: -1px; line-height: 35px;
+    padding-top: 20px;
+}
+
+
+/* sect03 */
+#sect03{
+    width: 100%; height: 820px; background-color: #fff;
+}
+.sect03_title > img{
+    width: 10%; display: block; float: left;
+}
+.sect03_title > .sub{
+    width: 90%;  
+}
+.sect03_title > .sub > h4{
+    
+}
+
+
 
 
 
