@@ -57,6 +57,7 @@ ul li{list-style-type: none;}
 }
 .sect01_subtitle > h1:first-of-type{
     color: rgb(0, 81, 255); 
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
 }
 .sect01_subtitle > h1:last-of-type{
     color: #fff; text-shadow: 1px 1px 2px black, 0 0 25px rgb(106, 106, 106), 0 0 5px rgb(41, 41, 41);
@@ -140,17 +141,134 @@ ul li{list-style-type: none;}
 #sect03{
     width: 100%; height: 820px; background-color: #fff;
 }
+.sect03_title {
+    padding-top: 100px; 
+}
+.sect03_title:after{
+    display: block; content: ""; clear: both;
+}
 .sect03_title > img{
     width: 10%; display: block; float: left;
 }
 .sect03_title > .sub{
-    width: 90%;  
+    padding-top: 5px; padding-left: 20px; padding-right: 20px; overflow: hidden;    
 }
 .sect03_title > .sub > h4{
-    
+    font-family: 'NanumBarunGothic'; font-size: 1.5em; letter-spacing: -1px;
+    color: #C20020;    
+}
+.sect03_title > .sub > h5{
+    font-family: 'NanumBarunGothic'; font-size: 1.3em; letter-spacing: -1px;
+    color: #333; padding-top: 5px;
+}
+
+.sect03_content{
+     overflow: hidden; padding-left: 3%; padding-top: 70px;
+}
+.sect03_content > div{
+    width: 22%; height: 30px; background-color: #3b9d21;
+    color: #fff; font-family: 'NanumBarunGothic'; text-align: center;
+    padding: 10px; padding-bottom: 0; display: inline-block; font-size: 1.2em;
+}
+
+.sect03_insurance{
+    margin-top: 70px; margin-left: 5%;
+}
+.sect03_insurance > img{
+    width: 45%; vertical-align: top; border: 1px solid #c1c1c1;
+    display: inline-block; padding: 5px; margin: 5px;
 }
 
 
+/* sect04 */
+#sect04{
+    background-image: url(../images/05_trans.png); background-repeat: no-repeat;
+    background-position: center top; background-color: #e9e9e9;
+    width: 100%; height: 737px; padding-top: 100px; margin-bottom: 100px;
+}
+.sect04_title > h2{
+    font-family: 'NanumBarunGothic'; font-size: 2.7em; letter-spacing: -1px;
+    text-align: center; color: #fff; padding-top: 50px;
+    background-color: #7dcf0b; width: 60%; margin: 0 auto; height: 100px;
+    border-radius: 30px; 
+}
+.sect04_title > h2 > span{
+    color: #d50202;
+}
+
+.sect04_content{
+    margin-left: 10%; margin-top: 250px;
+}
+.sect04_content > div{
+    background-color: #19d6ff; width: 40%; height: 300px;
+    display: inline-block; vertical-align: top;
+    border-radius: 20px; border: 1px solid #c0c0c0; margin-right: 20px;
+    padding-top: 40px;
+}
+.sect04_content > div > h2{
+    color: #fff; font-family: 'NanumBarunGothic'; font-size: 2.7em; letter-spacing: -1px;
+    text-align: center; padding:10px;
+}
+.sect04_content > div:first-of-type > h2 > span{
+    color: #d50202;
+} 
+.sect04_content > div:last-of-type > h2:first-of-type{color: #fff;}
+.sect04_content > div:last-of-type > h2{
+    color: #fff000; 
+}
+.sect04_content > div > h5{
+    text-align: center; font-family: 'NanumBarunGothic'; font-size: 1.2em;
+    color: #d50202; padding-top: 20px;
+}
+
+
+
+/* sect05 */
+
+#sect05{
+    background-image: url(../images/03.png); background-repeat: no-repeat;
+    background-position: center top; background-color: #e9e9e9;
+    width: 100%; height: 737px; padding-top: 100px;
+}
+
+
+
+
+
+
+/* bottom fix */
+#response_menu{
+    position: fixed; bottom: 0; width: 100%; 
+}
+#response_menu > .left{
+    width: 40%; height: 100px; background-color: #333; 
+    float: left;
+}
+#response_menu > .left > img{
+    display: block; float: left; width: 10%; 
+    padding-left: 50px; padding-top: 20px;
+}
+#response_menu > .left > h3 {
+    color: #fff; text-align: left; font-size: 1.5em; 
+    padding-top: 30px; padding-left: 20px; overflow: hidden;
+}
+#response_menu > .right{
+    width: 60%; height: 100px; float: right; 
+    background-color: rgb(186, 56, 27); text-align: left;
+}
+#response_menu > .right > img{
+    display: block; float: left; width: 7%; padding-left: 50px; padding-top: 25px;
+}
+#response_menu > .right > h4{
+    color: #fff; padding-top: 20px; padding-left: 20px; overflow: hidden;
+}
+#response_menu > .right > h2{
+    color: #fff; padding-left: 20px; overflow: hidden;
+    font-size: 1.8em;
+}
+#response_menu > .right > h2 > span{
+    font-size: 0.6em; 
+}
 
 
 
